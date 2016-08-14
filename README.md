@@ -10,15 +10,15 @@
 ### Build the dist version of the project
 You will need Node.js and Node Package Manager in order to build the distribution version of the project. Once those are properly in place, run the following in the root of the project to install the needed dependencies:
 
-'''javascript
+```javascript
 npm install
-'''
+```
 
 Gulp was used as part of the build process. To build the dist version of the project simply run the following in the root of the project:
 
-'''javascript
+```javascript
 gulp buildEntireProject
-'''
+```
 
 The source files of the project reside in the app folder.
 
