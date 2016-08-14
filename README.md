@@ -24,6 +24,6 @@ The source files of the project reside in the app folder.
 
 
 ### Special Thanks
-The following was profoundly helpful in learning how to setup a propery build process for this project
+The following was profoundly helpful in learning how to setup a proper build process for this project
 
 [Gulp for Beginners](https://css-tricks.com/gulp-for-beginners/)
