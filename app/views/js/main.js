@@ -514,7 +514,7 @@ function updatePositions() {
   // Moved scrollTop call outside of loop into variable
   // for performance boost
   var scrollTop = document.body.scrollTop;
-  var items = document.getElementsByClassName('.mover');
+  var items = document.getElementsByClassName('mover');
 
   // Moved items.length into a variable for use by the
   // for loop
@@ -551,6 +551,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // variable for later use below
   var movingPizzasEl = document.getElementById("movingPizzas1");
 
+  // Reduced number of pizzas
   for (var i = 0; i < 24; i++) {
     elem = document.createElement('img');
     elem.className = 'mover';
