@@ -1,10 +1,10 @@
 ## Website Performance Optimization portfolio project
 
 ### Changes made to Pizzeria Site
-1. Make use of RequestAnimationFrame whenever possible
-2. DRY principle: removed duplicate instances of code and recalculations where not neccesary.
-3. Moved variable declarations outside of loops whenever possible to avoid unneccesary recreation of variables.
-4. Modified calculation of pizza sizes to only calculate new size once and apply it to all pizzas since they are all of the same size when the slider changes. Original code was calculating new sizes for each pizza individually.
+1. Make use of RequestAnimationFrame whenever possible (lines 566 & 541)
+2. Made use of getElementById and getElementsByClassName instead of query selector (lines 406,407,456,481, 517,552)
+3. Moved variable declarations & property lookups outside of loops whenever possible to avoid unneccesary recreation/recalculation of variables and values (lines 461,462,521,522)
+4. Lowered pizza count from 200 to 24 (Line 555)
 
 
 ### Build the dist version of the project
